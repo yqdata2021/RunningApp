@@ -1,0 +1,23 @@
+.main {
+  width: 70%;
+}
+
+.commentSection {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.individualComment {
+  border-bottom: 25px;
+  border-color: grey;
+  background-color: rgb(236, 232, 232);
+  border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.name {
+  margin-left: 0.45rem;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 96%;
+}

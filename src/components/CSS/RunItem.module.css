@@ -1,0 +1,131 @@
+.free {
+  display: block;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 1rem;
+  color: white;
+  border-radius: 25px;
+  background-image: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+.ultra {
+  display: block;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 1rem;
+  color: white;
+  border-radius: 25px;
+  background-image: linear-gradient(to top left, #b42828, #d56f85);
+}
+
+.timed {
+  display: block;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: 1rem;
+  color: white;
+  border-radius: 25px;
+  background-image: linear-gradient(
+    to top left,
+    rgb(247, 161, 3),
+    rgb(252, 198, 97)
+  );
+}
+
+.community {
+  display: block;
+  justify-content: space-between;
+  /* margin-bottom: 3rem; */
+  margin-top: 1rem;
+  margin-right: 10rem;
+  border-radius: 25px;
+  padding: 1rem;
+  color: white;
+  background-image: linear-gradient(
+    to top left,
+    rgb(83, 2, 116),
+    rgb(205, 83, 253)
+  );
+}
+
+.run h3 {
+  margin: 0 0 0.25rem 0;
+}
+
+.stat {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+.stat2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+}
+
+@media all and (max-width: 800px) {
+  .stat {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  .stat2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+  .community {
+    display: block;
+    justify-content: space-between;
+    /* margin-bottom: 3rem; */
+    margin-top: 1rem;
+    margin-right: 0.1rem;
+    border-radius: 25px;
+    padding: 1rem;
+    color: white;
+    background-image: linear-gradient(
+      to top left,
+      rgb(83, 2, 116),
+      rgb(205, 83, 253)
+    );
+  }
+  .free {
+    display: block;
+    justify-content: space-between;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(to top left, #28b487, #7dd56f);
+  }
+
+  .ultra {
+    display: block;
+    justify-content: space-between;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(to top left, #b42828, #d56f85);
+  }
+
+  .timed {
+    display: block;
+    justify-content: space-between;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    color: white;
+    border-radius: 25px;
+    background-image: linear-gradient(
+      to top left,
+      rgb(247, 161, 3),
+      rgb(252, 198, 97)
+    );
+  }
+}

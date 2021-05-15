@@ -1,0 +1,48 @@
+.main-image {
+  width: 100%;
+  height: 50rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateZ(-5deg) translateY(-4rem) translateX(-3rem);
+}
+
+.introduction {
+  font-size: larger;
+  font-weight: bold;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  margin-top: -5rem;
+  padding-right: 1rem;
+}
+
+@media all and (max-width: 800px) {
+  .main-image {
+    width: 100%;
+    height: 40rem;
+    z-index: 0;
+    overflow: hidden;
+  }
+  .main-image img {
+    width: 230%;
+    height: 100%;
+    object-fit: cover;
+    transform: rotateZ(0deg) translateY(0rem) translateX(0rem);
+  }
+
+  .introduction {
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    width: 100%;
+    color: white;
+    text-align: right;
+    margin-top: -10rem;
+  }
+}

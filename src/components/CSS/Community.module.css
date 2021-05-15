@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.column1 {
+  width: 60%;
+  margin-left: 10%;
+  margin-top: 3rem;
+}
+.column2 {
+  width: 30%;
+  margin-top: 3rem;
+  margin-right: 10%;
+  height: 1461px;
+}
+
+.header {
+  padding-bottom: 7px;
+  border-bottom-style: solid;
+  border-bottom-color: red;
+  margin-bottom: 2rem;
+}
+
+@media all and (max-width: 800px) {
+  .column1 {
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 3rem;
+  }
+  .column2 {
+    width: 20%;
+    margin-top: 3rem;
+    height: 1500px;
+  }
+}

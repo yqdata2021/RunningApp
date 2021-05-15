@@ -1,0 +1,101 @@
+.ranking {
+  padding-top: 2rem;
+  border-bottom-style: solid;
+  border-bottom-color: pink;
+}
+
+.box1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  align-items: flex-start;
+  background-color: white;
+  max-height: 400px;
+  overflow-y: hidden;
+  word-wrap: break-word;
+}
+
+.box2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  align-items: flex-start;
+  background-color: white;
+  max-height: 400px;
+  word-wrap: break-word;
+  overflow-y: hidden;
+}
+
+.box3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  align-items: flex-start;
+  background-color: white;
+  max-height: 400px;
+  overflow-y: hidden;
+  word-wrap: break-word;
+}
+
+.rank1 {
+  color: rgb(255, 136, 0);
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+  font-weight: bold;
+}
+
+.rank23 {
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+  font-weight: bold;
+  color: rgb(201, 39, 201);
+}
+
+.rank46 {
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+  font-weight: bold;
+  color: rgb(17, 134, 230);
+}
+
+.rank7 {
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+  font-weight: bold;
+  color: rgb(106, 231, 106);
+}
+
+@media all and (max-width: 800px) {
+  .box1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-items: flex-start;
+    background-color: white;
+    max-height: 520px;
+    overflow-y: hidden;
+    word-wrap: break-word;
+  }
+
+  .box2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-items: flex-start;
+    background-color: white;
+    max-height: 520px;
+    word-wrap: break-word;
+    overflow-y: hidden;
+  }
+
+  .box3 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-items: flex-start;
+    background-color: white;
+    max-height: 520px;
+    overflow-y: hidden;
+    word-wrap: break-word;
+  }
+}

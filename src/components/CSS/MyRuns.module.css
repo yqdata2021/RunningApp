@@ -1,0 +1,105 @@
+.runs {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: runs-appear 1s ease-out forwards;
+}
+
+.runsCommunity {
+  max-width: 60rem;
+  width: 90%;
+  animation: runs-appear 1s ease-out forwards;
+}
+
+.stateText {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.timed {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  display: block;
+  justify-content: space-between;
+  margin: 3rem;
+  padding: 1rem;
+  color: #28b487;
+}
+
+.animates1 {
+  animation: runs-appear 2s ease-out forwards;
+  animation-delay: -0.5s;
+  font-size: 30px;
+  font-weight: bold;
+}
+.animates2 {
+  animation: runs-appear 2s ease-out forwards;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.animates3 {
+  animation: runs-appear 2s ease-out forwards;
+  animation-delay: -1s;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.btn {
+  max-width: 60rem;
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.chart {
+  max-width: 50rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+
+@keyframes runs-appear {
+  from {
+    opacity: 0;
+    transform: translateX(-3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media all and (max-width: 800px) {
+  .timed {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    display: block;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: 1rem;
+    color: #28b487;
+  }
+
+  .animates1 {
+    animation: runs-appear 2s ease-out forwards;
+    animation-delay: -0.5s;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .animates2 {
+    animation: runs-appear 2s ease-out forwards;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .animates3 {
+    animation: runs-appear 2s ease-out forwards;
+    animation-delay: -1s;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
